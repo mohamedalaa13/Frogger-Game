@@ -1,0 +1,24 @@
+/* body{
+   
+    background: url('images/background.png');
+    background-position: center;
+    background-size: 100%;
+    background-position-y: 100px;
+} */
+.wrapper {
+    border: 5px solid black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    background: url('images/background.png');
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
